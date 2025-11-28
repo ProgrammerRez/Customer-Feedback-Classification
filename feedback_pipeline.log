@@ -4,3 +4,7 @@
 2025-11-28 15:59:54,217 - WARNING - From D:\Side-Projects\Zero Shot Text Prediction\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
 
 2025-11-28 15:59:55,260 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-11-28 16:06:40,189 - WARNING - Error while downloading from https://huggingface.co/facebook/bart-large-mnli/resolve/main/model.safetensors: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-11-28 16:06:52,262 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /facebook/bart-large-mnli/resolve/main/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AB36869810>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f3bd5d2e-ac71-4fc6-987e-970acc3678c4)')' thrown while requesting GET https://huggingface.co/facebook/bart-large-mnli/resolve/main/model.safetensors
+2025-11-28 16:06:52,263 - WARNING - Retrying in 1s [Retry 1/5].
