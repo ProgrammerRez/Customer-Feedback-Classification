@@ -7,6 +7,7 @@ import streamlit as st
 import os
 import json
 import matplotlib.pyplot as plt
+import torch
 
 # Load environment variables
 load_dotenv('.env')
